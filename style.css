@@ -7,8 +7,8 @@ header, footer {
     background-color: rgb(184, 237, 172); 
 }
 
-header img, footer img {
-    width: 40px;
+nav img, footer img {
+    width:40px;
 }
 
 .projects {
