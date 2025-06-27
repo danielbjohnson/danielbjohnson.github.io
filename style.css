@@ -28,6 +28,12 @@ header img, footer img {
     
 }
 
+.freeform img {
+    width:100%;
+    height: initial;
+    object-fit: initial;
+}
+
 /*FOR THE SELF-MADE MODALS
 button {
     background-color: rgb(184,237,172);
