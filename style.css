@@ -4,12 +4,34 @@ body{
 }
 
 header, footer {
-    background-color: rgb(184, 237, 172); 
+    background-color: rgb(184, 237, 172);
+    padding:10px;
 }
 
+.namebar {
+    display: flex;
+    align-items:center;
+    justify-items:center;
+    gap:20px;
+    
+}
+.namebar img {
+    width:80px;
+}
 
-nav img, footer img {
+nav {
+    display:flex;
+    justify-items:center;
+    gap:15px;
+}
+
+.iconbar img {
     width:40px;
+}
+    
+
+h2 {
+    color: rgb(50,31,32)
 }
 
 .projects {
