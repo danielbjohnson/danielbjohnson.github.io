@@ -25,14 +25,27 @@ nav {
     gap:15px;
 }
 
+footer .iconbar {
+    display:flex;
+    gap:25px;
+}
 .iconbar img {
     width:40px;
 }
     
-
+/*
 h2 {
     color: rgb(50,31,32)
 }
+
+button {
+    background-color: rgb(241,229,215);
+    text-align:center;
+    padding:10px 40%;
+    font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:5px;   
+} */
 
 .projects {
     display: grid;
