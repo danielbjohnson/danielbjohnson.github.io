@@ -79,6 +79,11 @@ button {
     object-fit: initial;
 }
 
+.blog img {
+    width:33%;
+    height:initial;
+}
+
 /*FOR THE SELF-MADE MODALS
 button {
     background-color: rgb(184,237,172);
