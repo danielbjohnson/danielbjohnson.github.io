@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Microgripper</title>
+      <link rel="stylesheet" href="../style.css">
+      <link rel="icon" type="image/png" href="../assets/DJbfavicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PN57D0RWW"></script>
+       <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-1PN57D0RWW');
+       </script>
+   </head>
+   <body>
+        <header>   
+            <div class="namebar">
+                <a href="/index.html" class="logo"><img src="../assets/DJbfavicon.png"></a>
+                <div>
+                    <!--nav>
+                        <a href="index.html">ENGINEERING</a>
+                        <a href="jportfolio.html">JOURNALISM</a>
+                        <a href="cportfolio.html">MUSIC</a>
+                    </nav-->
+                    <h1>Daniel B. Johnson, Materials Engineer</h1>
+                </div>
+            </div>
+            <div class="iconbar">
+                <a href="../assets/DanielBJohnson-Resume.pdf"><img src="../assets/resume-4-svgrepo-com.svg"></a>
+                <a href="mailto:dbjohn@umich.edu"><img src="../assets/email-svgrepo-com.svg"><a>
+                <a href="https://www.linkedin.com/in/daniel-brennan-johnson"><img src="../assets/linkedin-rounded-border-svgrepo-com.svg"></a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>Microgripper FEA</h2>
+                <p>Oct 2025 - Dec 2025</p>
+                <p>Affiliation: Materials Science Department, University of Michigan</p>
+                <p>Keywords: FEA, tensile, microscopy</p>
+            </section>
+
+            <section>
+                <b><i>Summary: Designed micro-gripper and ran FEA for class project. Incorporated experimental tensile data to strengthen accuracy of model. Further characterized with fracture surface imaging and optical microscopy.</i></b>
+            </section>
+
+            <section>
+                <h3>Alloy Design</h3>
+                <p>For our end-of-semester aluminum-focused class project, our 4-person team decided to design an aluminum alloy that could be used in surgical microgrippers. Through strain hardening, we hoped to develop a higher resistance and higher strength metal that could compete with alternatives like stainless steel.</p>
+                <p>We used an Instron machine to strain harden our samples, introducing defects to the grains that would theoretically interrupt the flow of both electrons and dislocation motion.</p>
+            </section>
+            <section>
+                <h3>Experimental Characterization</h3>
+                <p>We used optical microscopy to identify the microstructure in the strain-hardened aluminum alloy. We observed a branching microstructure that presents many grain boundaries to interrupt dislocations.</p>
+                <div class="blog"><img src="../assets/Al-OM.png"></div>
+                <p>We then proceeded to run tensile tests on both strain-hardened aluminum and untreated aluminum, comparing their mechanical behavior over multiple trials. We also examined fracture surfaces using a Keyence 3D scanner. As expected, we saw a higher ultimate tensile strength from our strain hardened sample (orange) than our untreated sample (green). The pileup of dislocations in the strain-hardened aluminum prevents slip motion, allowing it to undergo more stress before fracture but giving it less flexibility to plastically deform.</p>
+                <div class="blog"><img src="../assets/Al-Tensile.png"></div>
+            </section>
+            <section>
+                <h3>FEA Simulation</h3>
+                <p>Hoping to translate these material behaviors to our intended application, I proceeded to make a simple 3D model of a microgripper. Each of its prongs were 10mm long, so as to simulate small-scale behavior under load. I brought the design into Ansys Mechanical and imported our experimental tensile data for each processing technique to improve the accuracy of the models.</p>
+                <div class="blog"><img src="../assets/FEAMicrogripper.png"></div>
+                <p>Simulation under 20N of reaction force found that the strain-hardened gripper deformed by 0.118mm, while the untreated gripper had a greater deformation of 0.140mm. These are both within an acceptable range of deformation for a 10mm prong, but it does confirm the theory that strain-hardening the material improved its strength.</p> 
+                <p>While aluminum may not yet be a good alternative to stainless steel for microgrippers, this experimental and computational work did provide useful background on material processing techniques that can be used to further improve mechanical properties for robotics. My chief contributions to this group project were in tensile testing and FEA analysis.</p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="iconbar">
+                <div><a href="mailto:dbjohn@umich.edu">dbjohn@umich.edu</a></div>
+                <div><a href="../assets/DanielBJohnson-Resume.pdf">Download resume</a></div>
+                <div><a href="https://www.linkedin.com/in/daniel-brennan-johnson">LinkedIn</a></div>
+                <div><a href="https://scholar.google.com/citations?hl=en&user=EhA-ULoAAAAJ">Google Scholar</a></div>
+            </div>
+            <p>@ 2026 Daniel B. Johnson. All rights reserved.</p>
+        </footer>
+   </body>
+</html>
