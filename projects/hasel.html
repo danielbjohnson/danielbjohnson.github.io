@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HASEL Actuators</title>
+      <link rel="stylesheet" href="../style.css">
+      <link rel="icon" type="image/png" href="../assets/DJbfavicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PN57D0RWW"></script>
+       <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-1PN57D0RWW');
+       </script>
+   </head>
+   <body>
+        <header>   
+            <div class="namebar">
+                <a href="/index.html" class="logo"><img src="../assets/DJbfavicon.png"></a>
+                <div>
+                    <!--nav>
+                        <a href="index.html">ENGINEERING</a>
+                        <a href="jportfolio.html">JOURNALISM</a>
+                        <a href="cportfolio.html">MUSIC</a>
+                    </nav-->
+                    <h1>Daniel B. Johnson, Materials Engineer</h1>
+                </div>
+            </div>
+            <div class="iconbar">
+                <a href="../assets/DanielBJohnson-Resume.pdf"><img src="../assets/resume-4-svgrepo-com.svg"></a>
+                <a href="mailto:dbjohn@umich.edu"><img src="../assets/email-svgrepo-com.svg"><a>
+                <a href="https://www.linkedin.com/in/daniel-brennan-johnson"><img src="../assets/linkedin-rounded-border-svgrepo-com.svg"></a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>HASEL Actuator Design</h2>
+                <p>Aug 2023 - Feb 2024</p>
+                <p>Affiliation: EMBiR Lab, University of Michigan Robotics</p>
+                <p>Keywords: soft robotics, electrostatics, actuators</p>
+                <a href="https://doi.org/10.1109/RoboSoft60065.2024.10521962"><p>Publication Link</p></a>
+                <a href="https://embirlab.github.io/HASEL_Characterization/"><p>Lab Summary</p></a>
+            </section>
+
+            <section>
+                <b><i>Summary: Designed and published findings on geometric parameters for soft biomimetic electrostatic actuators. Involved high-voltage electrical systems, liquid conductors/dielectrics, and iterative design.</i></b>
+            </section>
+
+            <section>
+                <h3>Introduction and Methods</h3>
+                <p>Soft robotic systems offer a number of benefits over traditional robots: they can conform to the objects they interact with, they carry less risk of injury when working with humans, and are often able to safely handle more delicate objects. Hydraulically Amplified Self-healing ELectrostatic (HASEL) actuators have been a soft robot design of particular interest due to their fast response time and self-healing capabilities, but most prior research has focused on their application to linear actuators. This study swept the design space for bending HASEL actuators, identifying geometries of interest for multiple different objects.</p>
+                <p>A basic HASEL actuator is constructed from two heat-sealed layers of a polymer film enclosing a dielectric fluid. The film is heat sealed with the geometry of interest, and carbon paint electrodes are applied to the ends. When a high voltage is passed across the electrodes, they snap together and push fluid into the channel width, inducing bending (quantified through curvature).  We varied the period and channel width with 5 values each, and ran each unique combination for 5 repetitions.</p>
+                <div class="blog"><img src="../assets/HASELparameters.jpg"></div>
+            </section>
+            <section>
+                <h3>Results and Discussion</h3>
+                <p>We found the highest curvatures at narrower channel widths, with a maximum at a narrow channel width and a period length of 10mm. The ratio of period to channel width was the most important predictor for HASEl curvature, with the optimal ratio being 2:1.</p>
+                <div class="blog"><img src="../assets/HASELratio.jpg"></div>
+                <p>Combining several bending HASEL actuators allowed us to demonstrate multiple different types of robotic grips. Depending on the geometry and weight of the object, the geometric parameters of the actuators can be adjusted to favor power or precision.</p>
+                <div class="blog"><img src="../assets/HASELfigure.gif"></div>
+                <p>My biggest contribution to this project was in the construction and testing of these actuators, requiring safe handling of high voltages, a materials understanding of dielectric strength and breakdown, and high-precision manufacturing. As the first research project I had been able to work on, this was an exciting cross between materials science and robotics that I have been interested in ever since.</p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="iconbar">
+                <div><a href="mailto:dbjohn@umich.edu">dbjohn@umich.edu</a></div>
+                <div><a href="../assets/DanielBJohnson-Resume.pdf">Download resume</a></div>
+                <div><a href="https://www.linkedin.com/in/daniel-brennan-johnson">LinkedIn</a></div>
+                <div><a href="https://scholar.google.com/citations?hl=en&user=EhA-ULoAAAAJ">Google Scholar</a></div>
+            </div>
+            <p>@ 2026 Daniel B. Johnson. All rights reserved.</p>
+        </footer>
+   </body>
+</html>
