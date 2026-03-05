@@ -54,7 +54,7 @@ button {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*allows for resizing*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*allows for resizing*/
     gap: 2px 15px;
     overflow: hidden;
 
